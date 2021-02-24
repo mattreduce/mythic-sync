@@ -2,7 +2,8 @@
 mythic_sync is a standalone tool that will connect to a mythic_server to ingest command events and will then post them to the Ghostwriter oplog API. This allows users to automatically have their mythic commands, comments, and output all automatically logged to Ghostwriter. 
 
 ## Usage
-After checking out the repository, open the settings.env file and fill out the variables with appropriate values. The following is an example:
+After checking out the repository, copy `settings.template.env` to `settings.env` then fill out the variables with appropriate values. The following is an example:
+
 ```
 MYTHIC_IP=10.10.1.100
 MYTHIC_USER=apfell_user
