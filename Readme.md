@@ -6,8 +6,7 @@ After checking out the repository, copy `settings.template.env` to `settings.env
 
 ```
 MYTHIC_IP=10.10.1.100
-MYTHIC_USER=apfell_user
-MYTHIC_PASSWORD=SuperSecretPassword
+MYTHIC_API_KEY=AnActualAPIKeyIsRandom
 GHOSTWRITER_API_KEY=f7D2nMPz.v8V5ioCNsSSoO19wNnBZsDhhZNmzzwNE
 GHOSTWRITER_URL=https://ghostwriter.mydomain.com
 GHOSTWRITER_OPLOG_ID=123
